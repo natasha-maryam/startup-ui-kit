@@ -108,7 +108,7 @@ const Pricing = () => {
                 className={`w-full ${
                   plan.popular 
                     ? 'btn-glow' 
-                    : 'border-primary/30 hover:border-primary hover:bg-primary/10'
+                    : 'border-primary/30 hover:border-primary hover:bg-primary/10 hover:text-white'
                 }`}
                 variant={plan.popular ? 'default' : 'outline'}
                 size="lg"

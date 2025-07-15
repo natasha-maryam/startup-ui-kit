@@ -44,7 +44,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="text-lg px-8 py-6 h-auto border-primary/30 hover:border-primary hover:bg-primary/10"
+                className="text-lg px-8 py-6 h-auto border-primary/30 hover:border-primary hover:bg-primary/10 hover:text-white"
                 onClick={() => scrollToSection('components')}
               >
                 View Components
